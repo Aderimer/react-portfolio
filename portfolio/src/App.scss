@@ -1,0 +1,15 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-snap-align: center;
+  height: 100vh;
+}
+
+body {
+  background-color: black;
+  background: rgb(45,0,73);
+background: linear-gradient(-90deg, rgba(45,0,73,1) 0%, rgba(0,0,0,1) 63%, rgba(0,0,0,1) 100%);
+}

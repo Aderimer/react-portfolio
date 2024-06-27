@@ -1,0 +1,18 @@
+.links {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+        position: relative;
+        top: 15vh;
+        color: inherit;
+        height: auto;
+        margin: 50px 0 50px 0;
+    }
+}
