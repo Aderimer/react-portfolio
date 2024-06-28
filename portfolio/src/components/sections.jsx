@@ -1,7 +1,7 @@
 import "./sections.scss"
 
 const Links = () => {
-  const items = ["Hvem?", "Hva?", "Hvor?"];
+  const items = ["Hvem?", "Hva?", "Hvor?", "Kontakt"];
 
   return (
     <div className="links">{items.map(item=>(

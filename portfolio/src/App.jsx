@@ -18,6 +18,10 @@ function App() {
       <section id="Hvor?">
         <h1>Footer</h1>
       </section>
+
+      <section id="Kontakt">
+        <h1>Kontakt</h1>
+      </section>
     </>
   )
 }
