@@ -1,13 +1,15 @@
 .wrapper {
+    position: static;
     height: 100%;
     max-width: 100%;
     margin: auto;
+    margin-bottom: 50vh;;
 }
 
 .card1 {
-    height: calc(100vh - 100px);
+    height: 100vh;
     color: white;
-    font-family: arial;
+    font-family: "Open Sans";
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -16,8 +18,8 @@
     margin: 20px;
     padding: 20px;
     position: absolute;
-    left: 20vw;
-    bottom: -40vh;
+    left: 10vw;
+    bottom: -50vh;
     overflow: hidden;
 
     h1 {
@@ -41,10 +43,11 @@
 
     @media screen and (max-width: 730px) {
         h1, h2, p {
-            transform: scale(0.3);
+            transform: scale(0.5);
             position: relative;
             width: auto;
             height: 1vh;
+            font-size: 160%;
         }
         
     }
@@ -62,10 +65,40 @@
 }
 
 @media screen and (max-width: 1230px) {
+    .card1 {
+        height: 50vh;
+        top: 40vh;
+        width: 80vw;
+        margin: 0 5px 20px 30px;
+    }
+
     #mig {
 
         transform: scale(1.5);
         right: 15vw;
         top: 15vh;
     }
+
+    .animated-roll {
+        font-size: 18px;
+        transform: scale(0.5);
+        width: 300% !important;
+        left: -90vw !important;
+    }
+}
+
+.animated-roll {
+    position: absolute;
+    color:#7E7F83;
+    opacity: 0.5;
+    font-size: 38px;
+    font-family: "Open Sans", "Arial";
+    z-index: -40;
+    top: 5vh;
+    width:140%;
+    height: 50px;
+    flex-wrap: nowrap;
+    word-spacing: 30px;
+    border-bottom: double #DDD92A 5px;
+    left: -2px;
 }

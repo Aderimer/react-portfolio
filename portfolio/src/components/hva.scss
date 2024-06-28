@@ -1,0 +1,43 @@
+.hva-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    color: white;
+    position: absolute;
+    top: 130vh;
+    left: 30vw;
+    overflow: hidden;
+    section {
+        width: 350px;
+        height: auto;
+    }
+    h1 {
+        color: #DDD92A;
+    }
+    mark {
+        color: #DDD92A;
+        background-color: rgba(0,0,0,0);
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .hva-wrapper {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: auto;
+        font-size: 12px;
+        top: 110vh;
+        margin: 2px;
+        padding: 0px;
+        row-gap: -2px;
+        left: 14vw;
+        height: 70vh;
+        width: 100vw;
+        section, h1, mark {
+            transform: scale(0.4);
+        }
+    }
+}

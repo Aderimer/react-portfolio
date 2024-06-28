@@ -28,13 +28,14 @@ const Hvem = () => {
   
   const sliderVariants = {
     initial: {
-      x: 0,
+      x: "-60%",
     },
     animate: {
-      x: "220%",
+      x: "90%",
       transition: {
         repeat:Infinity,
-        duration: 20,
+        duration: 5,
+        ease: "linear",
       },
     }
   };
@@ -49,9 +50,9 @@ const Hvem = () => {
       <img variants={textVariants} id="mig" src={bilde} height="150" width="100" />
 
 
-      <div className="animated-roll">
-        <h1 className="slider">ORD BOKSTAV FILLER PLACEHOLDER TEKST</h1>
-      </div>
+      <motion.div className="animated-roll" initial="initial" animate="animate">
+        <motion.h1 variants={sliderVariants} className="slider">Django React HTML CSS Python JavaScript SQL</motion.h1>
+      </motion.div>
     </div>
     </>
   )

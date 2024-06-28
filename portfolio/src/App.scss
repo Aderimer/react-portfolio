@@ -11,5 +11,28 @@ section {
 body {
   background-color: black;
   background: rgb(221,217,42);
-background: linear-gradient(-80deg, rgba(221,217,42,1) 0%, rgba(0,0,0,1) 63%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(-80deg, rgba(221,217,42,1) 0%, rgba(0,0,0,1) 63%, rgba(0,0,0,1) 100%);
+  font-family: "Open Sans", "Arial", "Times New Roman";
+}
+
+.main-wrapper {
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#Hvem\? {
+  opacity: 1;
+  height: 100vh;
+}
+
+#Hva\? {
+  opacity: 1;
+}
+
+#Hvor\? {
+  opacity: 1;
+}
+
+#Kontakt {
+  opacity: 1;
 }
