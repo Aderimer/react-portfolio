@@ -28,7 +28,7 @@ const Hvem = () => {
   
   const sliderVariants = {
     initial: {
-      x: "-60%",
+      x: "-100%",
     },
     animate: {
       x: "90%",

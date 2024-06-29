@@ -2,6 +2,7 @@ import './App.scss';
 import Navbar from "./components/navbar";
 import Hvem from "./components/hvem";
 import Hva from "./components/hva";
+import Hvor from "./components/hvor";
 
 function App() {
 
@@ -16,9 +17,9 @@ function App() {
         <section id="Hva?">
           <Hva />
         </section>
-          <br/><br/><br/>
+
         <section id="Hvor?">
-          <h1>Footer</h1>
+          <Hvor />
         </section>
           <br/><br/><br/>
         <section id="Kontakt">

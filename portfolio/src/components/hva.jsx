@@ -32,17 +32,22 @@ const Hva = () => {
         </motion.section>
         <motion.section variants={cardVariants} className="rejav">
             <motion.h1 variants={cardVariants}>React/TypeScript</motion.h1>
-            <motion.p variants={cardVariants}>Når det kommer til nettsider hvor hovedfokus er front-end bruker jeg React sammen med Vite.
-                Nettsider som f.eks. denne har jeg også brukt TypeScript og SCSS.
+            <motion.p variants={cardVariants}>Når det kommer til nettsider hvor hovedfokus er front-end bruker jeg <mark>React</mark> sammen med <mark>Vite.</mark>
+                Nettsider som f.eks. denne har jeg også brukt <mark>JSX</mark> og <mark>SCSS.</mark>
             </motion.p>
         </motion.section>
         <motion.section variants={cardVariants} className='3d'>
             <motion.h1 variants={cardVariants}>3D-Modellering</motion.h1>
-            <motion.p variants={cardVariants}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic error placeat, reiciendis facilis culpa pariatur!</motion.p>
+            <motion.p variants={cardVariants}>Siden 2017 har jeg brukt mye av fritiden min på å pusle rundt med diverse ting i <mark>Blender</mark>. Nøyaktig hva det er 
+            jeg har brukt tiden på er vanskelig å skrive ned, siden det er så mye forskjellig man kan bruke det til. <mark>Animasjon, SFX, hard-surfrace modellering og produkt-design </mark>
+            er bare noe av de få tingene jeg har brukt det til gjennom min tid. Til webdev bruker jeg det til å rask lage bakgrunns-bilder eller
+            små detaljer raskt og enkelt med høy kvalitet. Noen ganger er det ikke like lett å finne bilder som passer til visjonen, da er det beste å lage dem selv. </motion.p>
         </motion.section>
         <motion.section variants={cardVariants} className='person'>
             <motion.h1 variants={cardVariants}>Om Meg</motion.h1>
-            <motion.p variants={cardVariants}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, et!</motion.p>
+            <motion.p variants={cardVariants}>Jeg er en blid og rolig kar som liker å gjøre det meste selv. Enten det er bytte drivaksel på bilen, eller sette opp en nettside.
+                <mark><em> Om jeg ikke vet hvordan noe gjøres, så veit jeg hvordan jeg kan finne det ut.</em></mark>
+            </motion.p>
         </motion.section>
     </motion.div>
   )

@@ -1,0 +1,20 @@
+.hvor-wrapper {
+    position: absolute;
+    left: 25vw;
+    top: 240vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 20vh;
+
+    .loc {
+        border-left: dotted #DDD92A;
+        height: 70%;
+        padding-left: 40px;
+    }
+    h1 {
+        color:#DDD92A;
+    }
+}
