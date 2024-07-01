@@ -59,11 +59,19 @@ export const Kontakt = () => {
                 <motion.textarea variants={formVariants} name="message" placeholder='Skriv din melding her...' required/>
                 <motion.input variants={formVariants} className="form-btn" type="submit" value="Send" />
             </motion.form>
-              <motion.div variants={formVariants}>
+              <motion.div className='footer-kontakt' variants={formVariants}>
                 <motion.p className='extra' variants={formVariants}>Om ønskelig kan mail sendes manuelt til denne adressen: <mark>adrianemilmerli@gmail.com</mark></motion.p>
                 <motion.button variants={formVariants} id='copy-btn' onClick={async () => {
                   navigator.clipboard.writeText("adrianemilmerli@gmail.com")
-                }}>KOPIER</motion.button>
+                }}><svg fill="#ffffff" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <g id="SVGRepo_iconCarrier"> <path d="M0 1919.887h1467.88V452.008H0v1467.88ZM1354.965 564.922v1242.051H112.914V564.922h1242.051ZM1920 0v1467.992h-338.741v-113.027h225.827V112.914H565.035V338.74H452.008V0H1920ZM338.741 1016.93h790.397V904.016H338.74v112.914Zm0 451.062h790.397v-113.027H338.74v113.027Zm0-225.588h564.57v-112.913H338.74v112.913Z" fill-rule="evenodd"/> </g>
+                
+                </svg></motion.button>
               </motion.div>
         </motion.div>
         <ToastContainer />

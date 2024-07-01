@@ -1,28 +1,32 @@
 .kontakt {
-    height: auto;
+    height: 100vh;
     h1 {
         position: absolute;
         color: #DDD92A;
         left: 40.5vw;
         top: 335vh;
     }
-    .extra, #copy-btn {
+
+    .footer-kontakt {
+        color: white;
         position: relative;
         top: 90vh;
-        left: 30vw;
-        color: black;
+        display: flex;
+        left: 25vw;
+
         mark {
             background-color: rgba(0,0,0,0);
-            color:#11111180;
-            cursor:grab;
+            color: #211c3f;
+        }
+
+        button {
+            position: relative;
+            background-color: rgba(0,0,0,0);
+            border: none;
+            bottom: 10px;
+            cursor: grab;
         }
     }
-
-    #copy-btn {
-        background-color: none;
-        border: none;
-    }
-
     form {
         color: white;
         display: flex;
