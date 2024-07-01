@@ -22,19 +22,11 @@ body {
 }
 
 #Hvem\? {
-  opacity: 1;
   height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: 0;
 }
 
-#Hva\? {
-  opacity: 1;
-}
-
-#Hvor\? {
-  opacity: 1;
-}
-
-#Kontakt {
-  opacity: 1;
-}
 

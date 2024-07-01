@@ -67,3 +67,32 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .kontakt {
+        height: 95%;
+        .footer-kontakt {
+            width: 70vw;
+            top: 85vh !important;
+
+            button {
+                right: 40px;
+                border: solid white 1px !important;
+                height: 40px;
+                width: 80px;
+                border-radius: 90px;
+
+            }
+        }
+        form {
+            position: absolute;
+            left: 30vw !important;
+            top: 310vh;
+            box-shadow: none;
+            border: solid black 1px;
+        }
+        h1 {
+            top: 304vh;
+        }
+    }
+}

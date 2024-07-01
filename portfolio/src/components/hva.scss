@@ -29,15 +29,17 @@
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-columns: auto;
         font-size: 12px;
-        top: 110vh;
+        top: 100vh;
         margin: 2px;
         padding: 0px;
         row-gap: -2px;
-        left: 14vw;
+        left: 10vw;
         height: 70vh;
-        width: 100vw;
+        width: 90vw;
+        z-index: 10;
         section, h1, mark {
-            transform: scale(0.4);
+            transform: scale(0.3);
+            z-index: 1;
         }
     }
 }

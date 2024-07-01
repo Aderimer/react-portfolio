@@ -1,6 +1,6 @@
 .hvor-wrapper {
     position: absolute;
-    left: 25vw;
+    left: 40vw;
     top: 240vh;
     width: 30vw;
     display: flex;
@@ -16,5 +16,11 @@
     }
     h1 {
         color:#DDD92A;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hvor-wrapper {
+        top: 210vh;
     }
 }

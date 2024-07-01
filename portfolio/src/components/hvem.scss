@@ -64,28 +64,6 @@
     border: solid black 2px;
 }
 
-@media screen and (max-width: 1230px) {
-    .card1 {
-        height: 50vh;
-        top: 40vh;
-        width: 80vw;
-        margin: 0 5px 20px 30px;
-    }
-
-    #mig {
-
-        transform: scale(1.5);
-        right: 15vw;
-        top: 15vh;
-    }
-
-    .animated-roll {
-        font-size: 18px;
-        transform: scale(0.5);
-        width: 300% !important;
-        left: -90vw !important;
-    }
-}
 
 .animated-roll {
     position: absolute;
@@ -101,4 +79,37 @@
     word-spacing: 30px;
     border-bottom: double #DDD92A 5px;
     left: -2px;
+}
+
+@media screen and (max-width: 1230px) {
+    .wrapper {
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        height: auto;
+    }
+    .card1 {
+        height: 50vh;
+        top: 30vh;
+        width: 60vw;
+        margin: 0 5px 20px 30px;
+    }
+
+    #mig {
+
+        transform: scale(1);
+        right: 25vw;
+        top: 5vh;
+    }
+
+    .animated-roll {
+        font-size: 18px;
+        transform: scale(0.5);
+        width: 300% !important;
+        left: -90vw !important;
+    }
+
+    .animated-roll {
+        display: none;
+    }
 }
