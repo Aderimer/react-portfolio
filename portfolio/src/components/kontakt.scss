@@ -1,0 +1,58 @@
+.kontakt {
+    height: auto;
+    h1 {
+        position: absolute;
+        color: #DDD92A;
+        left: 36vw;
+        top: 335vh;
+    }
+    .extra {
+        position: relative;
+        top: 90vh;
+        left: 30vw;
+        color: #7E7F83;
+        mark {
+            background-color: rgba(0,0,0,0);
+            color:#ddda2a80;
+        }
+    }
+    form {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 35vw;
+        top: 340vh;
+        width: auto;
+        padding: 20px;
+        font-family: "Open Sans", "Arial";
+        font-size: 18px;
+        box-shadow: black 0px 23px 20px;
+
+        label {
+            color: white;
+        }
+        input:not(.form-btn) {
+            padding: 10px;
+            background-color: black;
+            border: solid #DDD92A 1px;
+            color: white;
+        }
+        textarea {
+            border: solid #DDD92A 1px;
+            background-color: black;
+            color: white;
+        }
+        .form-btn {
+            margin-top: 10px;
+            padding: 2px;
+            border-radius: 0px;
+            border: solid #DDD92A 1px;
+            width: 50px;
+            background-color: black;
+            color: white;
+            font-family: "Open Sans", "Arial";
+            cursor: grab;
+        }
+    }
+}

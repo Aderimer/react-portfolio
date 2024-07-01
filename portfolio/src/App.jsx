@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import Hvem from "./components/hvem";
 import Hva from "./components/hva";
 import Hvor from "./components/hvor";
+import { Kontakt } from './components/kontakt';
 
 function App() {
 
@@ -13,7 +14,6 @@ function App() {
         <section id="Hvem?">
           <Hvem />
         </section>
-          <br/><br/><br/><br/><br/><br/><br/>
         <section id="Hva?">
           <Hva />
         </section>
@@ -21,9 +21,8 @@ function App() {
         <section id="Hvor?">
           <Hvor />
         </section>
-          <br/><br/><br/>
         <section id="Kontakt">
-          <h1>Kontakt</h1>
+          <Kontakt />
         </section>
       </div>
     </>
