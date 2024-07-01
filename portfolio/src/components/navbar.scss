@@ -1,5 +1,5 @@
 .navbar {
-    position:fixed;
+    position:sticky;
     display: flex;
     height: 100px;
     left: 0px;
@@ -23,12 +23,14 @@
         background-color: white;
         position: fixed;
         left: 0px;
-        width: 200px;
+        width: 150px;
         height: 100vh;
+        z-index: 9;
+        top: 0;
 
     }
 
-    button {
+    .nav-btn {
         text-decoration: none;
         border: none;
         background-color: inherit;
@@ -43,10 +45,10 @@
         font-size: small;
         font-weight: 900;
         letter-spacing: -3px;
-        left: 12vw;
+        left: 1vw;
         top: 1vh;
         border: solid black 2px;
-        z-index: 10!important;
+        z-index: 100!important;
     }
 
     a:hover {
@@ -58,7 +60,7 @@
 @media screen and (max-width: 800px) {
     .navbar {
         .bg-anim {
-            width: 80px;            
+            width: 80px;
         }
 
         .bg-anim > .links {

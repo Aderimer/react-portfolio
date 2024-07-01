@@ -33,7 +33,7 @@ export const Kontakt = () => {
 
         emailjs
             .sendForm('service_uwg3cwa', 'template_qob49uk', form.current, {
-                publicKey: 'jd6PSIhWJ5tWOdLnG---'
+                publicKey: 'jd6PSIhWJ5tWOdLnG'
             })
             .then(
                 () => {
@@ -59,7 +59,12 @@ export const Kontakt = () => {
                 <motion.textarea variants={formVariants} name="message" placeholder='Skriv din melding her...' required/>
                 <motion.input variants={formVariants} className="form-btn" type="submit" value="Send" />
             </motion.form>
+              <motion.div variants={formVariants}>
                 <motion.p className='extra' variants={formVariants}>Om ønskelig kan mail sendes manuelt til denne adressen: <mark>adrianemilmerli@gmail.com</mark></motion.p>
+                <motion.button variants={formVariants} id='copy-btn' onClick={async () => {
+                  navigator.clipboard.writeText("adrianemilmerli@gmail.com")
+                }}>KOPIER</motion.button>
+              </motion.div>
         </motion.div>
         <ToastContainer />
     </>

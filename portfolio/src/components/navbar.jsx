@@ -24,7 +24,7 @@ const Navbar = () => {
             <br /><br />
             <Links />
             </motion.div>
-            <motion.button onClick={()=>setOpen(prev=>!prev)} animate={{rotate: [360,270,180,90]}}>| | |</motion.button>
+            <motion.button className="nav-btn" onClick={()=>setOpen(prev=>!prev)} animate={{rotate: [360,270,180,90]}}>| | |</motion.button>
     </div>
   );
 };
