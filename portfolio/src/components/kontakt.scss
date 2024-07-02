@@ -70,13 +70,14 @@
 
 @media screen and (max-width: 1200px) {
     .kontakt {
-        height: 95%;
+        height: 80vh !important;
         .footer-kontakt {
+            position: relative;
             width: 70vw;
-            top: 85vh !important;
+            top: 40vh;
+            left: 15vw;
 
             button {
-                right: 40px;
                 border: solid white 1px !important;
                 height: 40px;
                 width: 80px;
@@ -86,8 +87,10 @@
         }
         form {
             position: absolute;
-            left: 30vw !important;
+            left: 20vw !important;
             top: 310vh;
+            max-width: 50vw;
+            width: 100%;
             box-shadow: none;
             border: solid black 1px;
         }

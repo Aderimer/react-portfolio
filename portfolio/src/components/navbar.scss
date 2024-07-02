@@ -4,9 +4,8 @@
     height: 0px;
     left: 0px;
     top: 0px;
-    max-height: 90vh;
+    max-height: 100vh;
     max-width: 100vw;
-    z-index: 20;
 
     .wrapper {
         max-width: 100vw;
@@ -62,7 +61,7 @@
 @media screen and (max-width: 1200px) {
     .navbar {
         position: sticky;
-        height: 80vh;
+        height: 0vh;
         .bg-anim {
             width: 100px;
             z-index: 50;
