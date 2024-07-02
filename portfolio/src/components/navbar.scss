@@ -62,6 +62,7 @@
     .navbar {
         position: sticky;
         height: 0vh;
+        z-index: 49;
         .bg-anim {
             width: 100px;
             z-index: 50;
